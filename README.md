@@ -7,7 +7,7 @@ CoUAV is a platform which aims at effectively enabling the cooperation of multip
 
 ## Overview
 
-Currently the CoUAV platform is made up of monitor and GCS (Ground Control Software, in the form of python script on Raspberry Pi 3) for cluster of drones using MAVLink protocol.
+Currently the CoUAV platform is made up of monitor and GCS (Ground Control Software, in the form of python script on Raspberry Pi 3) for cluster of drones using MAVLink protocol. The demo video could be found [here](https://www.youtube.com/watch?v=FC7hE3gI3ck).
 
 The python script runs on the Raspberry Pi 3 to control the drone and the program of flight monitor on the ground. One single RPi is connected to one single drone's fight controller, every of the Pi and the Monitor should be on the same LAN and they communicate with [MAVC messages](/docs/mavc_message.md).
 
